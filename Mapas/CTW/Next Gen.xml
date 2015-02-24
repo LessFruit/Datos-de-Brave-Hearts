@@ -5,17 +5,22 @@
 Take the enemy's wool located to either side of the enemy's base and place it in your victory monument.
 </objective>
 <authors>
-<author contribution="reinventing the map">ElectroidFilms</author>
+<author uuid="dad8b95c-cf6a-44df-982e-8c8dd70201e0" contribution="reinventing the map"/>
+<!--  ElectroidFilms  -->
 </authors>
 <contributors>
-<contributor contribution="old map design">Plastix</contributor>
-<contributor contribution="old map design">IM_A_H0B0</contributor>
-<contributor contribution="old map design and gameplay management">MonsieurApple</contributor>
-<contributor contribution="old map design and item management">Anxuiz</contributor>
+<contributor uuid="ef4ea031-998f-4ec9-b7b6-1bdd428bcef8" contribution="old map design"/>
+<!--  Plastix  -->
+<contributor uuid="82c796a5-c033-43be-af30-fa06496995f9" contribution="old map design"/>
+<!--  IM_A_H0B0  -->
+<contributor uuid="3c7db14d-ac4b-4e35-b2c6-3b2237f382be" contribution="old map design and gameplay management"/>
+<!--  MonsieurApple  -->
+<contributor uuid="25961a08-c90c-4abd-b136-dad90e89c2eb" contribution="old map design and item management"/>
+<!--  Anxuiz  -->
 </contributors>
 <teams>
-<team id="blue" color="blue" max="30">Blue Team</team>
-<team id="red" color="dark red" max="30">Red Team</team>
+<team id="blue" color="blue" max="30">Blue</team>
+<team id="red" color="dark red" max="30">Red</team>
 </teams>
 <spawns>
 <spawn team="red" yaw="180">
@@ -164,10 +169,10 @@ Take the enemy's wool located to either side of the enemy's base and place it in
 </wool>
 </wools>
 <broadcasts>
-<tip after="2s">
+<tip after="1s">
 Every 10 minutes a diamond supply drop is spawn at the small side islands!
 </tip>
-<tip after="5s">
+<tip after="3s">
 Breaking a diamond block drops.. super speed, jump, and haste potion; efficiency one golden axe; and one piece of instant ignite tnt. All are kept on death.
 </tip>
 <alert after="10m" every="10m">`aA `bdiamond `asupply drop has been spotted!</alert>
