@@ -1,26 +1,29 @@
 <map proto="1.3.1">
 <name>Battle Ecliptica II: TE</name>
-<version>2.1.1</version>
+<version>2.1</version>
 <objective>Capture the other team's wools to win the game!</objective>
-<authors>chickolympics</authors>
+<authors>
+<author uuid="e37f18f1-117b-47db-8806-6d3a0854b518"/>
+<!--  chickolympics  -->
+</authors>
 <contributors>
-<contributor contribution="Map Feedback and Aesthetics">moo88888888</contributor>
-<contributor contribution="Map Feedback">NathanTheBook</contributor>
-<contributor contribution="Tourney Feedback">BrettOgden</contributor>
-<contributor contribution="Tourney Feedback">Aceman1998</contributor>
-<contributor contribution="Metadata">ElectroidFilms</contributor>
+<contributor uuid="15dc7f7a-40cd-4389-ad45-f8a33a09a394" contribution="Map Feedback and Aesthetics"/>
+<!--  moo88888888  -->
+<contributor uuid="c2a4c847-653e-482a-b62e-d7f8b64330cb" contribution="Map Feedback"/>
+<!--  NathanTheBook  -->
+<contributor uuid="1987fc00-a5b2-43b5-b94b-e3c0d25776e9" contribution="Tourney Feedback"/>
+<!--  BrettOgden  -->
+<contributor uuid="90d4c2a3-137b-4965-b9e5-963ab5a23fa1" contribution="Tourney Feedback"/>
+<!--  Aceman1998  -->
+<contributor uuid="dad8b95c-cf6a-44df-982e-8c8dd70201e0" contribution="Metadata"/>
+<!--  ElectroidFilms  -->
 </contributors>
 <teams>
-<team color="yellow" max="7">Yellow</team>
-<team color="dark green" max="7">Green</team>
-<team color="dark red" max="7">Red</team>
-<team color="blue" max="7">Blue</team>
+<team color="yellow" max="5">Yellow</team>
+<team color="dark green" max="5">Green</team>
+<team color="dark red" max="5">Red</team>
+<team color="blue" max="5">Blue</team>
 </teams>
-<rules>
-<rule>
-Creating alliances with another team(s) is allowed.
-</rule>
-</rules>
 <spawns>
 <spawn team="red" kit="red" yaw="180">
 <point>0.5,231,101.5</point>
@@ -392,4 +395,5 @@ Creating alliances with another team(s) is allowed.
 <item>step</item>
 <item>apple</item>
 </itemremove>
+<time result="objectives">45m</time>
 </map>
